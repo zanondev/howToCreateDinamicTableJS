@@ -29,3 +29,12 @@ body {
 .container-principal{
     margin-top: 10%;
 }
+
+#table tr.Feito td {
+    background-color: rgb(95, 12, 12);
+}
+
+#table td {
+    cursor: pointer;
+}
+

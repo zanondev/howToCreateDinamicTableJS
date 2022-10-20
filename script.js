@@ -52,11 +52,13 @@ form.addEventListener("submit", submitEvent);
 const changeStatus = (event) => {
     //condicao do clique ser na tag TD -> nao sei pq mas o TD tem q ser maiusculo
     if (event.target.tagName === 'TD') {
-        //definir uma constante com o pai do target (o pai vai ser o TR no caso?)
+        //definir uma constante com o pai do target (o pai vai ser o TR)
         const row = event.target.parentElement;
+        //classList -> criando uma classe CSS na linha para alterar o CSS no evento também (mudar cor da linha)
         row.classList = 'Feito';
-        //pega a ultima coluna (que é a de status que quere)
+        //pega a ultima coluna (que é a de status)
         const columnStatus = row.querySelector('td:last-child');
+        //textcontent -> escrevendo 'Feito'
         columnStatus.textContent = 'Feito';
     }
 }
