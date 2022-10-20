@@ -1,0 +1,31 @@
+.sec-page{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-table
+{
+    width: 700px;
+    text-align: center;
+}
+
+.div-form{
+    width: 500px;
+}
+
+ul{
+    list-style: none;
+}
+
+html,
+body {
+    background-color: #343434 !important;
+}
+
+.mb-3{
+    color: #fff!important;
+}
+
+.container-principal{
+    margin-top: 10%;
+}
